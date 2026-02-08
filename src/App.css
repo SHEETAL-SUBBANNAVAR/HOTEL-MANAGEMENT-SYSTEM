@@ -1,0 +1,149 @@
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+/* Navbar */
+.navbar {
+  height: 70px;
+  background: linear-gradient(120deg, #800000, #d4af37);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: sticky;
+  top: 0;
+}
+
+/* Logo */
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Menu */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.nav-menu a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* Book Button */
+.book-btn {
+  background-color: white;
+  color: #800000;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Sections */
+.section {
+  min-height: 100vh;
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home */
+.home {
+  background-color: #fff8e7;
+}
+
+/* Contact */
+.contact {
+  background-color: #f9e79f;
+}
+
+/* Rooms Container */
+.rooms-container {
+  width: 100%;
+  padding: 40px;
+}
+
+/* Floor */
+.floor {
+  margin-bottom: 60px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.floor h2 {
+  text-align: center;
+}
+
+/* Room Grid */
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Room Card */
+.room-card {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.room-card:hover {
+  transform: scale(1.05);
+}
+
+/* Unique Floor Colors */
+.ground {
+  background-color: #fff8e7;
+}
+
+.ground .room-card {
+  background-color: #f6d365;
+}
+
+.first {
+  background-color: #fdebd0;
+}
+
+.first .room-card {
+  background-color: #f5b041;
+}
+
+.second {
+  background-color: #e8f8f5;
+}
+
+.second .room-card {
+  background-color: #48c9b0;
+}
+
+.third {
+  background-color: #f4ecf7;
+}
+
+.third .room-card {
+  background-color: #af7ac5;
+}

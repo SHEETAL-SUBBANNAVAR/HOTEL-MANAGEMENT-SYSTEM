@@ -1,0 +1,28 @@
+.box {
+  background-color: gray;
+  padding: 12px;
+  display: inline-block;
+  border-radius: 8%;
+
+}
+
+button {
+  font-size: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* initial state */
+.black {
+  color: black;
+}
+
+/* after click */
+.gold {
+  color: gold;
+}
+
+button:hover {
+  font-size: 40px;
+}
